@@ -1,4 +1,4 @@
-var orm = require("../config/orm");
+var orm = require("../config/orm.js");
 
 var burger = {
     selectAll: function(cb) {
@@ -16,11 +16,6 @@ var burger = {
             cb(res);
         });
     },
-    deleteOne: function(burgerName, cb) {
-        orm.deleteOne(burgerName, function(res) {
-            cb(res);
-        });
-    }
 };
 
 module.exports = burger;
