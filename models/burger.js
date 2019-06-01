@@ -6,8 +6,8 @@ var burger = {
             cb(res);
         });
     },
-    insertOne: function(burger_name, cb) {
-        orm.insertOne(burger_name, function(res) {
+    insertOne: function(burgerName, cb) {
+        orm.insertOne(burgerName, function(res) {
             cb(res);
         });
     },
