@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this assignment, I attempted to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I will ran into some problems though, and it is currently not functioning.
+In this assignment, I attempted to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I will ran into some problems though, and it is currently not functioning. Although I double and triple checked my paths for connecting my js and css files, I was getting an error that they were not found. In addition, heroku is displaying an application error that I could not figure out.
 
 
 ### App Design Notes
@@ -14,9 +14,6 @@ In this assignment, I attempted to create a burger logger with MySQL, Node, Expr
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
 * The app will store every burger in a database, whether devoured or not.
-
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
-
 
 ### Technologies Used
 
